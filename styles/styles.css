@@ -1,0 +1,9 @@
+
+.box1 { 
+  width: 300px;
+  height: 200px;
+  background-color: black;
+  opacity: calc(0.5);
+  padding: 50px;
+  margin: 20px;
+} 
