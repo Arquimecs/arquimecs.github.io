@@ -1,8 +1,20 @@
 
+
+.scrollbox1 {
+  width: max-content;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  background-color: #1e1d24;
+}
+
 .box1 { 
-  width: 300px;
-  height: 200px;
-  background-color: black;
+  width: 500px;
+  height: 400px;
+  background-color: rgb(99, 98, 98);
+  position: relative;
+  backdrop-filter: blur(10px);
   opacity: 0.2;
   padding: 50px;
   margin: 20px;
