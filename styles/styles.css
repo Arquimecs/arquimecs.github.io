@@ -17,7 +17,7 @@ body {
 .img1 {
   border-radius: 15px;
   position: relative;
-  transform: translate(0%, 0);
+  object-fit: cover;
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -33,21 +33,25 @@ body {
   background-color: #1e1d24;
 }
 
-.box1 { 
-  width: 200px;
-  height: 100px;
+.box1 { /* box blur */
+
+  max-width: 35%;
+  max-height: 35%;
+  width: 35%;
+  height: 35%;
   background-color: rgba(99, 98, 98, 0.3);
-  position: relative;
   backdrop-filter: blur(5px);
-  transform: translate(50px, -150px);
+  transform: translate(5%, -110%);
   border-radius: 15px;
 } 
 
-.box2 {
-  width: 50%;
+.box2 { /* img1 background box */
+  max-width: 50%;
+  max-height: 30%;
+  width: 1000px;
   height: 500px;
   scrollbar-width: 15px;
-  background-color: transparent ;
+  background-color: transparent;
   position: relative;
   margin: 0 auto;
   transform: translateY(100px);
